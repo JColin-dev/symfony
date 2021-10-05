@@ -14,7 +14,7 @@ class AppFixtures extends Fixture
         $muffin->setDesignation("Muffin")
             ->setDescription("Un délicieux muffin au chocolat")
             ->setPrix(3.5);
-
+²
         $manager->persist($muffin);
 
         for ($i = 0; $i < 100; $i++) {
